@@ -4,7 +4,7 @@
 
 Recommended repository name:
 
-`student-performance-analytics`
+`intership_project_python`
 
 ## Files to Upload
 
