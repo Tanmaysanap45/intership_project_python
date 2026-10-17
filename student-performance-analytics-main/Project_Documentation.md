@@ -183,7 +183,7 @@ Through this project, I practiced:
 ### 10. GitHub Repository
 
 **Repository Link:**  
-_To be added after the GitHub repository is created._
+https://github.com/Tanmaysanap45/intership_project_python
 
 **Google Form Submission:**  
 The final GitHub repository URL will be submitted through the EWB Courses Google Form as required.
