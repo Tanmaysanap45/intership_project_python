@@ -1,0 +1,98 @@
+
+========================================================================================
+                          STUDENT PERFORMANCE ANALYTICS SYSTEM                          
+========================================================================================
+Python + NumPy + Pandas
+
+Dataset file       : students.csv
+Student records    : 20
+Columns            : 8
+Subjects analyzed  : 4
+
+Dataset loaded successfully.
+Missing values by column:
+Student_ID       0
+Name             0
+Department       0
+Python           0
+Statistics       0
+Database         0
+Data_Analysis    0
+Attendance       0
+
+========================================================================================
+                             1. STUDENT PERFORMANCE SUMMARY                             
+========================================================================================
+Student_ID            Name             Department  Total_Marks  Average_Marks Grade  Attendance Result
+     ST001    Aarav Sharma           Data Science        353.0          88.25     A          96   Pass
+     ST002      Diya Patil           Data Science        322.0          80.50     A          91   Pass
+     ST003     Rohan Mehta       Computer Science        368.0          92.00    A+          97   Pass
+     ST004    Ananya Joshi           Data Science        281.0          70.25     B          86   Pass
+     ST005 Vedant Kulkarni       Computer Science        324.0          81.00     A          89   Pass
+     ST006       Isha Shah           Data Science        376.0          94.00    A+          98   Pass
+     ST007     Om Deshmukh Information Technology        285.0          71.25     B          84   Pass
+     ST008      Sneha Nair           Data Science        344.0          86.00     A          94   Pass
+     ST009      Kabir Khan       Computer Science        247.0          61.75     C          79   Pass
+     ST010      Myra Desai Information Technology        354.0          88.50     A          93   Pass
+     ST011     Aditya More           Data Science        307.0          76.75     B          88   Pass
+     ST012      Siya Pawar       Computer Science        349.0          87.25     A          95   Pass
+     ST013   Reyansh Gupta Information Technology        275.0          68.75     C          82   Pass
+     ST014   Kiara Bhosale           Data Science        364.0          91.00    A+          97   Pass
+     ST015     Arjun Singh       Computer Science        244.0          61.00     C          76   Pass
+     ST016      Meera Iyer           Data Science        324.0          81.00     A          90   Pass
+     ST017     Yash Jadhav Information Technology        287.0          71.75     B          85   Pass
+     ST018        Avni Rao           Data Science        359.0          89.75     A          96   Pass
+     ST019      Harsh Vora       Computer Science        233.0          58.25     D          74   Fail
+     ST020    Nisha Chavan Information Technology        328.0          82.00     A          92   Pass
+
+========================================================================================
+                            2. CLASS PERFORMANCE STATISTICS                             
+========================================================================================
+Total Students            : 20
+Passed Students           : 19
+Failed Students           : 1
+Class Average Marks       : 79.05
+Highest Student Average   : 94.00
+Lowest Student Average    : 58.25
+Average Attendance        : 89.10%
+
+========================================================================================
+                          3. SUBJECT-WISE PERFORMANCE ANALYSIS                          
+========================================================================================
+      Subject  Average  Highest  Lowest
+       Python    78.60     95.0    55.0
+   Statistics    78.75     94.0    58.0
+     Database    78.85     94.0    57.0
+Data_Analysis    80.00     96.0    59.0
+
+Best-performing subject : Data_Analysis (80.00 average)
+
+========================================================================================
+                              4. TOP 5 PERFORMING STUDENTS                              
+========================================================================================
+1. Isha Shah          | Average: 94.00 | Grade: A+ | Result: Pass
+2. Rohan Mehta        | Average: 92.00 | Grade: A+ | Result: Pass
+3. Kiara Bhosale      | Average: 91.00 | Grade: A+ | Result: Pass
+4. Avni Rao           | Average: 89.75 | Grade: A | Result: Pass
+5. Myra Desai         | Average: 88.50 | Grade: A | Result: Pass
+
+========================================================================================
+                              5. RESULT & GRADE BREAKDOWN                               
+========================================================================================
+Result:
+  Pass  : 19
+  Fail  : 1
+
+Grades:
+  A+    : 3
+  A     : 9
+  B     : 4
+  C     : 3
+  D     : 1
+  F     : 0
+
+========================================================================================
+                                   ANALYSIS COMPLETED                                   
+========================================================================================
+Processed data saved as: student_analysis_output.csv
+The project is ready for GitHub submission.
